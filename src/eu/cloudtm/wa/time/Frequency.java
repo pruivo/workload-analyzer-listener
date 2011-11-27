@@ -4,6 +4,10 @@ package eu.cloudtm.wa.time;
  * User: pruivo
  * Date: 11/25/11
  * Time: 5:39 PM
+ *
+ * This represents a timer that is trigger every x milliseconds
+ *
+ * see {@link TimeType} for more information
  */
 public class Frequency implements TimeType {
 

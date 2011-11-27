@@ -10,18 +10,39 @@ import java.util.List;
  * User: pruivo
  * Date: 11/25/11
  * Time: 12:29 PM
+ *
+ * This class contains all the information needed about the resource type needed. In addition, contains information
+ * if the value to be obtained is the maximum, the minimum or the average value
  */
 public class Metric {
-    ResourceType type;
-    String misType;
-    SpaceHierarchy spaceGrouping;
-    List<SpaceSpec> spaceSpec;
+
+    public static enum Value {
+        AVG, //average
+        MIN, //minimum
+        MAX  //maximum
+    }
+
+    private ResourceType type;
+    private String misType;
+    private SpaceHierarchy spaceGrouping;
+    private List<SpaceSpec> spaceSpec;
+    private Value value;
+
 
     public Metric(ResourceType type, String misType, SpaceHierarchy spaceGrouping, List<SpaceSpec> spaceSpec) {
         this.type = type;
         this.misType = misType;
         this.spaceGrouping = spaceGrouping;
         this.spaceSpec = spaceSpec;
+        this.value = null;
+    }
+
+    public Metric(ResourceType type, String misType, SpaceHierarchy spaceGrouping, List<SpaceSpec> spaceSpec, Value value) {
+        this.type = type;
+        this.misType = misType;
+        this.spaceGrouping = spaceGrouping;
+        this.spaceSpec = spaceSpec;
+        this.value = value;
     }
 
     public ResourceType getType() {
@@ -56,6 +77,14 @@ public class Metric {
         spaceSpec.add(ss);
     }
 
+    public Value getValue() {
+        return value;
+    }
+
+    public void setValue(Value value) {
+        this.value = value;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -66,9 +95,8 @@ public class Metric {
         if (misType != null ? !misType.equals(metric.misType) : metric.misType != null) return false;
         if (spaceGrouping != metric.spaceGrouping) return false;
         if (spaceSpec != null ? !spaceSpec.equals(metric.spaceSpec) : metric.spaceSpec != null) return false;
-        if (type != metric.type) return false;
 
-        return true;
+        return type == metric.type && value == metric.value;
     }
 
     @Override
@@ -77,6 +105,7 @@ public class Metric {
         result = 31 * result + (misType != null ? misType.hashCode() : 0);
         result = 31 * result + (spaceGrouping != null ? spaceGrouping.hashCode() : 0);
         result = 31 * result + (spaceSpec != null ? spaceSpec.hashCode() : 0);
+        result = 31 * result + (value != null ? value.hashCode() : 0);
         return result;
     }
 }

@@ -59,21 +59,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="WorkLoadClient.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="WorkLoadClient.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/eu/cloudtm/wa/WorkLoadClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="37" selection-start="1025" selection-end="1025" vertical-scroll-proportion="0.34517765">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="46" column="0" selection-start="1268" selection-end="1268" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Frequency.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/eu/cloudtm/wa/time/Frequency.java">
+      <file leaf-file-name="TestMain.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/eu/cloudtm/test/TestMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="23" selection-start="513" selection-end="513" vertical-scroll-proportion="0.0">
+            <state line="60" column="25" selection-start="2964" selection-end="2964" vertical-scroll-proportion="0.4901316">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CompositeRule.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/eu/cloudtm/wa/rules/CompositeRule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="49" selection-start="947" selection-end="950" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleRule.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/eu/cloudtm/wa/rules/SimpleRule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="69" column="10" selection-start="1756" selection-end="1756" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -82,10 +98,8 @@
       <file leaf-file-name="WorkloadAnalyzerStub.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/eu/cloudtm/wa/WorkloadAnalyzerStub.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="18" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="25" column="17" selection-start="835" selection-end="835" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -104,22 +118,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/eu/cloudtm/wa/SpaceHierarchy.java" />
-        <option value="$PROJECT_DIR$/src/eu/cloudtm/wa/SpaceSpec.java" />
-        <option value="$PROJECT_DIR$/src/eu/cloudtm/wa/StatsMeasurement.java" />
-        <option value="$PROJECT_DIR$/src/eu/cloutm/test/rules/Metric.java" />
-        <option value="$PROJECT_DIR$/src/eu/cloutm/test/rules/exception/RuleException.java" />
-        <option value="$PROJECT_DIR$/src/eu/cloutm/test/TestMain.java" />
-        <option value="$PROJECT_DIR$/src/eu/cloutm/test/rules/CompositeRule.java" />
-        <option value="$PROJECT_DIR$/src/eu/cloutm/test/rules/SimpleRule.java" />
         <option value="$PROJECT_DIR$/src/eu/cloutm/test/rules/NotRule.java" />
         <option value="$PROJECT_DIR$/src/eu/cloutm/test/rules/Rule.java" />
-        <option value="$PROJECT_DIR$/src/eu/cloudtm/wa/rules/SimpleRule.java" />
-        <option value="$PROJECT_DIR$/src/eu/cloudtm/wa/WorkloadAnalyzerStub.java" />
         <option value="$PROJECT_DIR$/src/eu/cloudtm/wa/TimeType.java" />
+        <option value="$PROJECT_DIR$/src/eu/cloudtm/wa/rules/builder/RuleBuilder.java" />
+        <option value="$PROJECT_DIR$/src/eu/cloudtm/wa/StatsMeasurement.java" />
+        <option value="$PROJECT_DIR$/src/eu/cloudtm/wa/parser/StatsMeasurement.java" />
+        <option value="$PROJECT_DIR$/src/eu/cloudtm/wa/rules/Rule.java" />
         <option value="$PROJECT_DIR$/src/eu/cloudtm/wa/time/TimeType.java" />
+        <option value="$PROJECT_DIR$/src/eu/cloudtm/wa/rules/NotRule.java" />
+        <option value="$PROJECT_DIR$/src/eu/cloudtm/wa/rules/CompositeRule.java" />
+        <option value="$PROJECT_DIR$/src/eu/cloudtm/wa/rules/Metric.java" />
         <option value="$PROJECT_DIR$/src/eu/cloudtm/wa/time/Frequency.java" />
         <option value="$PROJECT_DIR$/src/eu/cloudtm/wa/WorkLoadClient.java" />
+        <option value="$PROJECT_DIR$/src/eu/cloudtm/wa/WorkloadAnalyzerStub.java" />
+        <option value="$PROJECT_DIR$/src/eu/cloudtm/wa/rules/SimpleRule.java" />
+        <option value="$PROJECT_DIR$/src/eu/cloudtm/test/TestMain.java" />
       </list>
     </option>
   </component>
@@ -127,7 +141,7 @@
     <option name="LAST_EDITED_MODULE_NAME" />
     <option name="LAST_EDITED_TAB_NAME" />
   </component>
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -153,7 +167,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -264,14 +278,100 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="wa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exception" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestWorkLoadAnalyzer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestWorkLoadAnalyzer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cloudtm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="builder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestWorkLoadAnalyzer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestWorkLoadAnalyzer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cloudtm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestWorkLoadAnalyzer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestWorkLoadAnalyzer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cloudtm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Favorites" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -280,6 +380,7 @@
     <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="fileTemplates" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -289,8 +390,25 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TestMain">
+    <configuration default="false" name="TestMain" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="eu.cloudtm.test.TestMain" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TestWorkLoadAnalyzer" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -397,7 +515,9 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <list size="0" />
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.TestMain" />
+    </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -407,8 +527,9 @@
   <component name="SvnConfiguration" maxAnnotateRevisions="500">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
     <option name="LAST_MERGED_REVISION" />
-    <option name="UPDATE_RUN_STATUS" value="false" />
     <option name="MERGE_DRY_RUN" value="false" />
     <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
     <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
@@ -417,42 +538,54 @@
     <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
     <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
     <configuration useDefault="true">$USER_HOME$/.subversion_IDEA</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="038eca89-3c97-466a-bfa6-a1e4041dd843" name="Default" comment="" />
       <created>1322222603161</created>
       <updated>1322222603161</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1680" height="937" extended-state="6" />
+    <frame x="-8" y="-5" width="1936" height="1093" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925338" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.33170134" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6707466" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959914" sideWeight="0.67021275" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925338" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
     <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
     <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
     <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
@@ -463,6 +596,8 @@
     <option name="ENABLE_BACKGROUND_PROCESSES" value="false" />
     <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="LAST_COMMIT_MESSAGE" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
@@ -481,123 +616,94 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/eu/cloudtm/wa/ResourceType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="7" selection-start="150" selection-end="150" vertical-scroll-proportion="0.18274112">
-          <folding />
-        </state>
+        <state line="12" column="7" selection-start="150" selection-end="150" vertical-scroll-proportion="0.18274112" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eu/cloudtm/wa/SpaceHierarchy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="11" selection-start="143" selection-end="143" vertical-scroll-proportion="0.15228426">
-          <folding />
-        </state>
+        <state line="10" column="11" selection-start="143" selection-end="143" vertical-scroll-proportion="0.15228426" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eu/cloudtm/wa/SpaceSpec.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="28" selection-start="108" selection-end="108" vertical-scroll-proportion="0.10659899">
-          <folding />
-        </state>
+        <state line="7" column="28" selection-start="108" selection-end="108" vertical-scroll-proportion="0.10659899" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/eu/cloudtm/wa/rules/exception/RuleException.java">
+    <entry file="file://$PROJECT_DIR$/src/eu/cloudtm/wa/parser/StatsMeasurement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="28" selection-start="175" selection-end="175" vertical-scroll-proportion="0.12182741">
-          <folding />
-        </state>
+        <state line="14" column="25" selection-start="306" selection-end="306" vertical-scroll-proportion="0.23026316" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eu/cloudtm/wa/rules/Rule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="18" selection-start="389" selection-end="389" vertical-scroll-proportion="0.296875">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/eu/cloudtm/test/TestMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="249" selection-end="249" vertical-scroll-proportion="0.1875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/eu/cloudtm/wa/rules/SimpleRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="35" selection-start="2941" selection-end="2941" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/eu/cloudtm/wa/rules/CompositeRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="83" selection-start="334" selection-end="334" vertical-scroll-proportion="0.21875">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="20" column="33" selection-start="599" selection-end="599" vertical-scroll-proportion="0.2631579" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eu/cloudtm/wa/time/TimeType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="25" selection-start="172" selection-end="172" vertical-scroll-proportion="0.16751269">
-          <folding />
-        </state>
+        <state line="32" column="97" selection-start="803" selection-end="803" vertical-scroll-proportion="0.5263158" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eu/cloudtm/wa/rules/NotRule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="39" selection-start="641" selection-end="641" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="15" column="33" selection-start="288" selection-end="288" vertical-scroll-proportion="0.19736843" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eu/cloudtm/wa/rules/exception/RuleException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="28" selection-start="174" selection-end="174" vertical-scroll-proportion="0.13157895" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eu/cloudtm/wa/rules/Metric.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="37" selection-start="1304" selection-end="1304" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="14" column="50" selection-start="384" selection-end="384" vertical-scroll-proportion="0.16447368" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/eu/cloudtm/wa/StatsMeasurement.java">
+    <entry file="file://$PROJECT_DIR$/src/eu/cloudtm/wa/rules/builder/RuleBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="8" selection-start="92" selection-end="92" vertical-scroll-proportion="0.10659899">
-          <folding />
-        </state>
+        <state line="11" column="67" selection-start="261" selection-end="261" vertical-scroll-proportion="0.16447368" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eu/cloudtm/wa/time/Frequency.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="23" selection-start="513" selection-end="513" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="9" column="44" selection-start="198" selection-end="198" vertical-scroll-proportion="0.14802632" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eu/cloudtm/wa/WorkloadAnalyzerStub.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="18" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="25" column="17" selection-start="835" selection-end="835" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eu/cloudtm/wa/rules/SimpleRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="10" selection-start="1756" selection-end="1756" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eu/cloudtm/wa/WorkLoadClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="37" selection-start="1025" selection-end="1025" vertical-scroll-proportion="0.34517765">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="46" column="0" selection-start="1268" selection-end="1268" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eu/cloudtm/wa/rules/CompositeRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="49" selection-start="947" selection-end="950" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eu/cloudtm/test/TestMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="25" selection-start="2964" selection-end="2964" vertical-scroll-proportion="0.4901316">
+          <folding />
         </state>
       </provider>
     </entry>

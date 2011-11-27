@@ -1,5 +1,6 @@
 package eu.cloudtm.wa;
 
+import eu.cloudtm.wa.parser.StatsMeasurement;
 import eu.cloudtm.wa.rules.Metric;
 import eu.cloudtm.wa.rules.Rule;
 import eu.cloudtm.wa.rules.exception.RuleException;
@@ -13,6 +14,8 @@ import java.util.*;
  * User: pruivo
  * Date: 11/25/11
  * Time: 5:28 PM
+ *
+ *
  */
 public class WorkLoadClient {
 
@@ -22,17 +25,33 @@ public class WorkLoadClient {
         registeredComponents = new LinkedList<WorkLoadMonitorThread>();
     }
 
-    public void register(Rule rule, TimeType time, String methodName, Object instanceToInvoke) throws NoSuchMethodException {
+    public void register(Rule rule, TimeType time, String methodName, Object instanceToInvoke)
+            throws NoSuchMethodException {
         WorkLoadMonitorThread wt = new WorkLoadMonitorThread(rule, time, methodName, instanceToInvoke);
         registeredComponents.add(wt);
         wt.start();
     }
     
-    public void cancelRegistration() {
+    public void cancelRegistrations() {
         for(WorkLoadMonitorThread wt : registeredComponents) {
             wt.interrupt();
         }
         registeredComponents.clear();
+    }
+
+    private void trigger(final Method method, final Object instance) {
+        new Thread() {
+            @Override
+            public void run() {
+                try {
+                    method.invoke(instance);
+                } catch (IllegalAccessException e) {
+                    e.printStackTrace();
+                } catch (InvocationTargetException e) {
+                    e.printStackTrace();
+                }
+            }
+        }.start();
     }
 
     private class WorkLoadMonitorThread extends Thread {
@@ -41,7 +60,7 @@ public class WorkLoadClient {
         private Method method;
         private Object instanceToInvoke;
         private Set<Metric> metrics;
-        private Map<Metric, StatsMeasurement> results;
+        private Map<Metric, Object> results;
         
         public WorkLoadMonitorThread(Rule rule, TimeType timeType, String methodName, Object instanceToInvoke) 
                 throws NoSuchMethodException {
@@ -51,7 +70,7 @@ public class WorkLoadClient {
             this.rule = rule;
             this.instanceToInvoke = instanceToInvoke;
             this.metrics = rule.getMetricsNeeded();
-            this.results = new HashMap<Metric, StatsMeasurement>();
+            this.results = new HashMap<Metric, Object>();
         }
 
         @Override
@@ -62,20 +81,16 @@ public class WorkLoadClient {
                 time.waitNext();
                 results.clear();
                 for(Metric m : metrics) {
-                    StatsMeasurement sm = WorkloadAnalyzerStub.doProcess(m.getType(), m.getMisType(), 
+                    StatsMeasurement sm = WorkloadAnalyzerStub.doProcess(m.getType(), m.getMisType(),
                             m.getSpaceGrouping(), m.getSpaceSpec(), 0, Long.MAX_VALUE, 0).get(0);
                     results.put(m, sm);
                 }
                 try {
                     if(rule.evaluate(results)) {
-                        method.invoke(instanceToInvoke);
+                        trigger(method, instanceToInvoke);
                     }
                 } catch (RuleException e) {
                     //just ignore...
-                } catch (InvocationTargetException e) {
-                    throw new RuntimeException("Instance does not exist");
-                } catch (IllegalAccessException e) {
-                    throw new RuntimeException("Cannot access method");
                 }
             }
         }

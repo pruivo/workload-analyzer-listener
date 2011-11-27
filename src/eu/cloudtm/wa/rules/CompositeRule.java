@@ -1,6 +1,5 @@
 package eu.cloudtm.wa.rules;
 
-import eu.cloudtm.wa.StatsMeasurement;
 import eu.cloudtm.wa.rules.exception.RuleException;
 
 import java.util.HashSet;
@@ -8,13 +7,15 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * User: pruivo
+ * @author pruivo
  * Date: 11/25/11
  * Time: 5:05 PM
  *
  * this class represents a composition of rules with a logical operator (AND or OR)
  *
  *     < rule, operator, rule >
+ *
+ * See {@link Rule} for more info
  */
 public class CompositeRule implements Rule {
 
@@ -33,7 +34,7 @@ public class CompositeRule implements Rule {
         this.operator = operator;
     }
 
-    public boolean evaluate(Map<Metric,StatsMeasurement> values) throws RuleException {
+    public boolean evaluate(Map<Metric, Object> values) throws RuleException {
         boolean b1 = rule1.evaluate(values);
         boolean b2 = rule2.evaluate(values);
         if(operator == CompositeRule.Operator.AND) {

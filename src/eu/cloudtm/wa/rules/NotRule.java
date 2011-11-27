@@ -1,6 +1,5 @@
 package eu.cloudtm.wa.rules;
 
-import eu.cloudtm.wa.StatsMeasurement;
 import eu.cloudtm.wa.rules.exception.RuleException;
 
 import java.util.Map;
@@ -13,6 +12,8 @@ import java.util.Set;
  *
  * this class represents the *logical not* rule
  *  < NOT, rule >
+ *
+ * See {@link Rule} for more info
  */
 public class NotRule implements Rule {
 
@@ -22,7 +23,7 @@ public class NotRule implements Rule {
         this.rule = rule;
     }
 
-    public boolean evaluate(Map<Metric,StatsMeasurement> values) throws RuleException {
+    public boolean evaluate(Map<Metric, Object> values) throws RuleException {
         return !rule.evaluate(values);
     }
 
